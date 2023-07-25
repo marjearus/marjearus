@@ -1,0 +1,127 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <head>
+    <h1 id="title">Survey Form Project</h1>
+  <p id="description">This is a survey form website I created as a part of my Responsive Web Design certificate. Thanks to the kind folks at freeCodeCamp for the help!</p>
+  </head>
+  <form id="survey-form"> 
+  <fieldset>
+        <label for="name" id="name-label">Enter Your Name: <input placeholder="Linus" id="name" name="name" type="text" required /></label>
+        <label for="email" id="email-label">Enter Your Email: <input placeholder="ilovecats@email.com" id="email" name="email" type="email" required /></label>
+        <label for="number" id="number-label">Enter your Phone Number: <input id="number" name="number" type="number" placeholder="5555551234" min="0" max="9999999999" /></label>
+      </fieldset>
+      <fieldset>
+        <label for="dropdown">Which front-end language is your favorite?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">HTML</option>
+            <option value="2">CSS</option>
+            <option value="3">Javascript</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        </fieldset>
+        <fieldset>
+        <label for="personal-account"><input id="personal-account" type="radio" value="personal-account" name="account-type" class="inline" /> Personal Account</label>
+        <label for="business-account"><input id="business-account" type="radio" value="business-account" name="account-type" class="inline" /> Business Account</label>
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" value="terms-and-conditions" class="inline" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        </label>
+        <label for="i-will-pet-a-cat-today">
+        <input id="i-will-pet-a-cat-today" type="checkbox" required name="i-will-pet-a-cat-today" value="i-will-pet-a-cat-today" class="inline" />I will pet a cat today
+        </label>
+      </fieldset>
+        <fieldset>
+          <label for="comments">Additional comments:
+          <textarea id="comments" name="comments" rows="3" cols="30" placeholder="Now I am become Pepper destroyer of worlds"></textarea>
+        </label>
+         </fieldset>
+         <button for="submit" id="submit" name="submit">Submit</button>
+      </form>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #015011;
+  color: #e7ffee;
+  font-family: Monaco, Monospace;
+  font-size: 16px;
+  background-image: url(https://images.unsplash.com/photo-1510694853838-e4a8c978f518?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGFjaWZpYyUyMG5vcnRod2VzdHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #e7ffee;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #ffffff;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+** end of undefined **
+
