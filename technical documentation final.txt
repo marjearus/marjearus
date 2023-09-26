@@ -1,0 +1,449 @@
+** start of undefined **
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linux for Dummies Documentation</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Linux for Dummies Documentation</header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#Introduction_to_Linux"
+            >Introduction to Linux</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Choosing_a_Linux_Distribution"
+            >Choosing a Linux Distribution</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Getting_Started">Getting Started</a></li>
+        <li>
+          <a class="nav-link" href="#File_and_Directory_Management"
+            >File and Directory Management</a
+          >
+        </li>
+        <li><a class="nav-link" href="#User_Management">User Management</a></li>
+        <li>
+          <a class="nav-link" href="#Networking_Basics">Networking Basics</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Package_Management">Package Management</a>
+        </li>
+        <li><a class="nav-link" href="#Troubleshooting">Troubleshooting</a></li>
+        <li>
+          <a class="nav-link" href="#Additional_Resources"
+            >Additional Resources</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction_to_Linux">
+        <header>Introduction to Linux</header>
+        <article>
+          <p>
+            Linux is a powerful and versatile open-source operating system used
+            by millions of individuals and organizations worldwide. This
+            documentation is your beginner's guide to understanding and working
+            with Linux. Whether you're new to the world of computing or
+            transitioning from another operating system, this guide will help
+            you get started with Linux.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Choosing_a_Linux_Distribution">
+        <header>Choosing a Linux Distribution</header>
+        <article>
+          <h1>Linux Distribution Explained</h1>
+          <p>
+            Linux comes in various distributions, often referred to as
+            "distros." Each distro offers a unique set of features and package
+            management systems. Here are some popular Linux distributions to
+            consider:
+          </p>
+          <ul>
+            <li>
+              <b>Ubuntu</b>: Known for its user-friendliness and strong
+              community support.
+            </li>
+            <li>
+              <b>Debian</b>: A stable and versatile distribution with a vast
+              software repository.
+            </li>
+            <li>
+              <b>Fedora</b>: Known for using the latest technologies and
+              offering a bleeding-edge experience.
+            </li>
+            <li>
+              <b>CentOS</b>: A free, enterprise-class distribution often used
+              for servers.
+            </li>
+            <li>
+              <b>Arch Linux</b>: A rolling-release distro for advanced users who
+              prefer manual configuration.
+            </li>
+            <li>
+              <b>Linux Mint</b>: A user-friendly distro with a focus on
+              simplicity.
+            </li>
+            <li>
+              <b>openSUSE</b>: Offers both a stable release and a rolling
+              release version.
+            </li>
+            <li>
+              <b>Kali Linux</b>: Designed for penetration testing and ethical
+              hacking.
+            </li>
+            <li>
+              <b>Elementary OS</b>: Known for its elegant and user-friendly
+              design.
+            </li>
+            <li>
+              <b>Manjaro</b>: An Arch Linux-based distro with an easy
+              installation process.
+            </li>
+            <li>
+              <b>Raspberry Pi OS</b>: Optimized for the Raspberry Pi
+              single-board computer.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Getting_Started">
+        <header>Getting Started</header>
+        <article>
+          <h1>Installing Linux</h1>
+          <p>
+            Before you can start using Linux, you'll need to install a Linux
+            distribution on your computer. Each distribution may have slightly
+            different installation steps, so consult the documentation provided
+            by the distribution of your choice for specific guidance.
+          </p>
+          <h1>Basic Commands</h1>
+          <h4>The Terminal</h4>
+          <p>
+            In Linux, you interact with the operating system using the command
+            line, often referred to as the "terminal" or "shell." Here are some
+            basic commands to get you started:
+          </p>
+          <ul>
+            <li><code>pwd</code>: Print the current working directory.</li>
+            <li>
+              <code>ls</code>: List files and directories in the current
+              directory.
+            </li>
+            <li><code>cd</code>: Change your current directory.</li>
+            <li><code>mkdir</code>: Create a new directory.</li>
+            <li><code>touch</code>: Create an empty file.</li>
+            <li><code>cp</code>: Copy files or directories.</li>
+            <li><code>mv</code>: Move or rename files and directories.</li>
+            <li><code>rm</code>: Remove files or directories.</li>
+            <li><code>cat</code>: Display the contents of a file.</li>
+            <li>
+              <code>nano</code> or <code>vim</code>: Text editors for creating
+              and editing files.
+            </li>
+          </ul>
+          <h1>Command Syntax</h1>
+          <p>
+            Linux commands follow a specific syntax. Understanding how to
+            structure commands is essential. A typical command consists of:
+          </p>
+          <ul>
+            <li>The command itself (e.g., <code>ls</code>).</li>
+            <li>
+              Options or flags (e.g., <code>-l</code> for a long listing).
+            </li>
+            <li>Arguments (e.g., filenames or directories).</li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="File_and_Directory_Management">
+        <header>File and Directory Management</header>
+        <article>
+          <h1>Working with Files and Directories</h1>
+          <p>
+            Linux organizes files and directories in a hierarchical structure.
+            Here's how you can navigate and manipulate them:
+          </p>
+          <ul>
+            <li><code>pwd</code>: Print the path of the current directory.</li>
+            <li>
+              <code>ls</code>: List files and directories in the current
+              directory.
+            </li>
+            <li><code>cd</code>: Change your current directory.</li>
+            <li><code>mkdir</code>: Create a new directory.</li>
+            <li><code>touch</code>: Create an empty file.</li>
+            <li><code>cp</code>: Copy files or directories.</li>
+            <li><code>mv</code>: Move or rename files and directories.</li>
+            <li><code>rm</code>: Remove files or directories.</li>
+          </ul>
+          <h1>File Permissions</h1>
+          <p>
+            Linux uses a permission system to control who can access, modify, or
+            execute files and directories. Understanding permissions is crucial
+            for system security. Key commands for managing permissions include:
+          </p>
+          <ul>
+            <li><code>chmod</code>: Change file permissions.</li>
+            <li><code>chown</code>: Change file ownership.</li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="User_Management">
+        <header>User Management</header>
+        <article>
+          <h1>User Accounts</h1>
+          <p>
+            Linux allows you to create and manage user accounts. Here's how to
+            work with users:
+          </p>
+          <ul>
+            <li>
+              <code>sudo</code>: Execute commands with superuser privileges.
+            </li>
+            <li><code>useradd</code>: Create a new user account.</li>
+            <li><code>passwd</code>: Set or change a user's password.</li>
+            <li><code>userdel</code>: Delete a user account.</li>
+            <li><code>su</code>: Switch to another user account.</li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Networking_Basics">
+        <header>Networking Basics</header>
+        <article>
+          <h1>Network Configuration</h1>
+          <p>
+            Linux provides tools to configure network settings. Here are some
+            basic networking commands:
+          </p>
+          <ul>
+            <li>
+              <code>ifconfig</code> or <code>ip</code>: Display network
+              interface information.
+            </li>
+            <li><code>ping</code>: Test network connectivity.</li>
+            <li><code>netstat</code>: Show network statistics.</li>
+            <li><code>ssh</code>: Securely connect to remote machines.</li>
+            <li>
+              <code>curl</code> or <code>wget</code>: Download files from the
+              internet.
+            </li>
+            <li>
+              <code>iptables</code> or <code>ufw</code>: Configure firewall
+              rules.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Package_Management">
+        <header>Package Management</header>
+        <article>
+          <h1>Software Installation</h1>
+          <p>
+            Linux distributions use package managers to install, update, and
+            remove software. Common package managers include:
+          </p>
+          <ul>
+            <li><code>apt</code> (Debian/Ubuntu)</li>
+            <li><code>yum</code> (CentOS)</li>
+            <li><code>dnf</code> (Fedora)</li>
+            <li><code>pacman</code> (Arch Linux)</li>
+          </ul>
+          <p>
+            Use these package managers to install and manage software packages.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Troubleshooting">
+        <header>Troubleshooting</header>
+        <article>
+          <h1>Common Issues</h1>
+          <p>
+            If you encounter issues while using Linux, here are some common
+            troubleshooting steps:
+          </p>
+          <ul>
+            <li>
+              Check log files in <code>/var/log</code> for error messages.
+            </li>
+            <li>Verify your network configuration.</li>
+            <li>
+              Ensure your system is up to date with the latest software updates.
+            </li>
+            <li>
+              Consult online forums and communities for solutions to specific
+              problems.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Additional_Resources">
+        <header>Additional Resources</header>
+        <article>
+          <p>
+            For more in-depth information and resources on Linux, consider
+            exploring the following:
+          </p>
+          <ul>
+            <li>
+              <a href="https://www.linux.org/docs/"
+                >Official Linux Documentation</a
+              >
+            </li>
+            <li>
+              <a href="https://www.linuxquestions.org/"
+                >Linux Community Forums</a
+              >
+            </li>
+            <li>
+              <a href="https://www.linuxcommand.org/"
+                >Linux Command Line Basics</a
+              >
+            </li>
+            <li>
+              <a href="https://www.tldp.org/LDP/sag/html/index.html"
+                >Linux System Administration Guide</a
+              >
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+<styles> 
+
+html,
+body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+section article {
+  color: #4d4e53;
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
+}
+
+code {
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 815px) {
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  }
+
+  #navbar {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+}
+
+</styles>
+
+** end of undefined **
+
